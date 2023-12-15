@@ -1,0 +1,98 @@
+.container {
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'sourcesanspro', serif;
+    font-size: 18px;
+    color: #444;
+}
+
+@font-face{
+    font-family: 'Courgette';
+	src: url(ressources/Courgette/Courgette-Regular.woff) format("woff");
+    font-weight: normal;
+	font-style: normal;	
+}
+
+@font-face{
+    font-family: 'sourcesanspro';
+	src: url(ressources/Courgette/SourceSansPro/SourceSansPro-Regular.ttf) format("truetype");
+    font-weight: normal;
+	font-style: normal;	
+}
+
+.flag, .bridge {
+    float: right;
+    margin-left: 1em;
+}
+
+.liberty, .cab {
+    float: left;
+    margin-right: 1em;
+}
+
+.clear {
+    clear: both;
+}
+
+.header {
+    font-family: "Courgette";    
+    text-align: center;
+    color: #003884;    
+}
+
+.header>h2 {
+    background-color: #d7e1ef;
+    font-size: 25px;  
+    color: #003884; 
+    font-weight:lighter; 
+}
+
+nav {
+    text-align: left;
+    font-weight: bold;    
+}
+
+h1, h2, h3 {
+    text-align: center;
+    font-family: "Courgette"; 
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 35px;
+    color: #4f89b9;
+}
+
+h2>span {
+    font-size: 18px;
+}
+
+li>span {    
+    font-style: italic;
+}
+
+h3 {
+    font-size: 25px;
+    color: #003884;
+}
+
+strong, em {
+    color: #003884;
+}
+
+footer>div {
+    text-align: center;
+}
+
+footer>div>img {
+    width:50;
+    height: 50px;
+}
+
+p>a {
+    color: black;
+}
